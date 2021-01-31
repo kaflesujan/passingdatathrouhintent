@@ -11,20 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:padding="15dp"
-        android:oriented="vertical">
-
+        android:oriented="vertical"
+        android:padding="15dp">
 
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/Replyview"
+            android:layout_width="259dp"
+            android:layout_height="37dp"
             android:text=""
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
+
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
